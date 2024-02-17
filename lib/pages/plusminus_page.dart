@@ -15,6 +15,7 @@ class _PlusMinusPageState extends State<PlusMinusPage> {
   Widget build(BuildContext context) {
     final counterCubitInstance = BlocProvider.of<CounterCubit>(context);
     return Scaffold(
+      appBar: AppBar(),
       floatingActionButton: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
