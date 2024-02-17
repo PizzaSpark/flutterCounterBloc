@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class MyFAB extends StatelessWidget {
+class MyRouterFAB extends StatelessWidget {
   final IconData icon;
   final VoidCallback? onPressed;
-  const MyFAB({super.key, required this.icon, this.onPressed});
+  const MyRouterFAB({super.key, required this.icon, this.onPressed});
 
   @override
   Widget build(BuildContext context) {
